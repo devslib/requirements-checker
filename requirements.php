@@ -2,7 +2,6 @@
 
 $requiredExtensions = [
     'http',
-    'httpd',
     'fileinfo',
     'bcmath',
     'mbstring'
@@ -10,11 +9,10 @@ $requiredExtensions = [
 
 $requiredFunctions = [
     'file_get_contents',
-    'file_put_contentss',
-    'file_put_contentssss'
+    'file_put_contents'
 ];
 
-$requiredPhpVersion = '7.4.5';
+$requiredPhpVersion = '7.3.0';
 
 // Check extensions
 $extensions = [];
